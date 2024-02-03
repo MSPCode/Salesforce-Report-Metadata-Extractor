@@ -29,6 +29,7 @@ This script assumes that you have the necessary permissions to access and query 
 3. **OPTIONAL STEP:** Specify Where Clause: Modify the `QUERY_WHERE_CLAUSE` variable in the script to filter the reports you want to process. Leave it as an empty string to fetch all available reports.
 
 ## Usage
+
 ```sh
 python reportExtractor.py
 ```
@@ -40,9 +41,11 @@ Extract metadata for each report and process it.
 Export the processed metadata into an Excel file named Report_Of_Reports.xlsx
 
 ## Customization
+
 You can customize the script by modifying the `REPORT_FIELDS` list to include or exclude specific fields from the report metadata. Additionally, the `QUERY_WHERE_CLAUSE` can be adjusted to filter reports more granularly based on your needs.
 
 ## Output
+ 
  - Report URL
  - Report ID
  - Report Name
@@ -56,12 +59,12 @@ You can customize the script by modifying the `REPORT_FIELDS` list to include or
  - Created Date
  - Last Modified By
  - Last Modified Date
-
-## License
-
-MIT
  - Last Run Date
  - Last View Date
 
 Each row in the Excel file represents a single Salesforce report, providing a comprehensive overview of its configuration and metadata.
+
+## License
+
+MIT
 
